@@ -350,7 +350,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    background-color: #f4f2f3;\r\n}\r\n\r\nmain {\r\n    display: flex;\r\n    align-items: center;\r\n    height: 95vh;\r\n    justify-content: center;\r\n}\r\n\r\n.to_do_list_container {\r\n    border: 1px solid #9497ae ;\r\n    box-shadow: 0.05rem 0.05rem 2rem;\r\n    width: 40rem;\r\n    height: auto;\r\n}\r\n\r\nheader {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    width: auto;\r\n    padding: 1rem;\r\n    border-bottom: 1px solid #c4c6d8 ;\r\n    background-color: white;\r\n}\r\n\r\nh1 {\r\n    margin: 0;\r\n    font-family: Quintessential, sans-serif;\r\n    font-size: 1.8rem;\r\n    color: black;\r\n}\r\n\r\n.reload {\r\n    align-self: center;\r\n    color: #c4c6d8;\r\n    margin-right: 1rem;\r\n    cursor: pointer;\r\n}\r\n\r\n.task_input {\r\n    background-color: white; \r\n    border-bottom: 1px solid #c4c6d8 ;\r\n}\r\n\r\n.task_input input {\r\n    font-size: 1.5rem;\r\n    padding: 0.5rem;\r\n    font-family: Quintessential, sans-serif;\r\n    width: fit-content;\r\n    border: none;\r\n    outline: none;\r\n    margin-left: 1rem;\r\n}\r\n\r\n.task_container {\r\n    display: flex;\r\n    /* padding: 1rem 0; */\r\n    flex-direction: column;\r\n    gap: 1rem;\r\n    background-color: white;\r\n}\r\n\r\n.task_container .task {\r\n    display: flex;\r\n    font-family: Quintessential, sans-serif;\r\n    gap: 1rem;\r\n    padding: 1rem 0;\r\n    border-bottom: 1px solid #c4c6d8 ;\r\n    font-size: 1.2rem;\r\n}\r\n\r\n.checking {\r\n    width: 1rem;\r\n    height: 1rem;\r\n    flex-shrink: 0;\r\n}\r\n\r\n.clear {\r\n    text-align: center;\r\n    padding: 1rem;\r\n    color: #9497ae;\r\n    font-family: Quintessential, sans-serif;\r\n    font-size: 1.5rem;\r\n    cursor: pointer;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: #f4f2f3;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  align-items: center;\r\n  height: 95vh;\r\n  justify-content: center;\r\n}\r\n\r\n.to_do_list_container {\r\n  border: 1px solid #9497ae;\r\n  box-shadow: 0.05rem 0.05rem 2rem;\r\n  width: 40rem;\r\n  height: auto;\r\n}\r\n\r\nheader {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: auto;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  background-color: white;\r\n}\r\n\r\nh1 {\r\n  margin: 0;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.8rem;\r\n  color: black;\r\n}\r\n\r\n.reload {\r\n  align-self: center;\r\n  color: #c4c6d8;\r\n  margin-right: 1rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.task_input {\r\n  background-color: white;\r\n  border-bottom: 1px solid #c4c6d8;\r\n}\r\n\r\n.task_input input {\r\n  font-size: 1.5rem;\r\n  padding: 0.5rem;\r\n  font-family: Quintessential, sans-serif;\r\n  width: 90%;\r\n  border: none;\r\n  outline: none;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.task_container {\r\n  display: flex;\r\n\r\n  /* padding: 1rem 0; */\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n  background-color: white;\r\n}\r\n\r\n.task_container .task {\r\n  display: flex;\r\n  font-family: Quintessential, sans-serif;\r\n  gap: 1rem;\r\n  padding: 1rem 0;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  font-size: 1.2rem;\r\n}\r\n\r\n.checking {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  flex-shrink: 0;\r\n}\r\n\r\n.clear {\r\n  text-align: center;\r\n  padding: 1rem;\r\n  color: #9497ae;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.5rem;\r\n  cursor: pointer;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -547,44 +547,42 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
-// import checkBoxing from './check_box.js'
 // Populating the html element
 
-const taskContainer = document.querySelector('.task_container')
-let template = ``
-let tick = ''
-let display = ''
+const taskContainer = document.querySelector('.task_container');
+let template = '';
+let tick = '';
+let display = '';
 const taskLists = [
     {
-        description: "Wash the dishes",
+        description: 'Wash the dishes',
         completed: false,
-        index: 0
+        index: 0,
     },
     {
-        description: "Complete To do list project",
+        description: 'Complete To do list project',
         completed: false,
-        index: 1
+        index: 1,
     },
-]
+];
 
-for (let i = 0; i < taskLists.length; i++) {
-    if (taskLists[i].completed == false) {
-        tick = 'none'
-        display = ''
-    }
-    else {
-        tick = ''
-        display = 'none'
+for (let i = 0; i < taskLists.length; i = +1) {
+    if (taskLists[i].completed === false) {
+        tick = 'none';
+        display = '';
+    } else {
+        tick = '';
+        display = 'none';
     }
     template += `
     <div class="task" id="${taskLists[i].index}">
         <div class="check_box ${tick}"></div>
         <input type = "checkbox" class="checking ${display}">
         <div>${taskLists[i].description}</div>
-    </div > `
+    </div > `;
 }
 
-taskContainer.innerHTML = template
+taskContainer.innerHTML = template;
 
 })();
 

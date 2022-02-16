@@ -16,7 +16,15 @@ This to do list task 1 was done using Javascript, Html and Css by implementing w
 - Webpack
 
 **Instructions on setting up your project locally.**
-The project could be accessed by visiting the website link.
+
+To get a local copy follow these simple example steps.
+
+1.- Clone the repository using this command:
+    git clone https://github.com/Micky373/To_DO_List.git
+
+2.- Then you can open the index.html file in the dist folder to see the demo
+
+3.- To see the code open the project in your code editor of your preference.
 
 ## Live Demo 
 
