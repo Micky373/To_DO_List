@@ -84,6 +84,8 @@ const addTask = () => {
   }
 };
 
+const button = document.querySelector('.button');
+
 activity.addEventListener('keypress', (e) => {
   if (e.code === 'Enter') {
     if (e.target.value === '') return;
@@ -91,6 +93,13 @@ activity.addEventListener('keypress', (e) => {
     window.location.reload();
     e.target.value = '';
   }
+});
+
+button.addEventListener('click', (e) => {
+  if (e.target.value === '') return;
+  addTask();
+  window.location.reload();
+  e.target.value = '';
 });
 
 window.onload = () => {
