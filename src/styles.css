@@ -5,8 +5,11 @@ body {
 main {
   display: flex;
   align-items: center;
-  height: 95vh;
   justify-content: center;
+}
+
+.none {
+  display: none;
 }
 
 .to_do_list_container {
@@ -14,6 +17,7 @@ main {
   box-shadow: 0.05rem 0.05rem 2rem;
   width: 40rem;
   height: auto;
+  margin: 10rem auto;
 }
 
 header {
@@ -44,7 +48,7 @@ h1 {
   border-bottom: 1px solid #c4c6d8;
 }
 
-.task_input input {
+input {
   font-size: 1.5rem;
   padding: 0.5rem;
   font-family: Quintessential, sans-serif;
@@ -63,9 +67,10 @@ h1 {
 
 .task_container .task {
   display: flex;
+  justify-content: space-between;
   font-family: Quintessential, sans-serif;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 1rem;
   border-bottom: 1px solid #c4c6d8;
   font-size: 1.2rem;
 }
@@ -83,4 +88,15 @@ h1 {
   font-family: Quintessential, sans-serif;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.the_task {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.delete_task {
+  margin-right: 0.5rem;
+  color: rgb(233, 47, 47);
 }
