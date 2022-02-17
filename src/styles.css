@@ -61,7 +61,6 @@ input {
 .task_container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   background-color: white;
 }
 
@@ -99,4 +98,10 @@ input {
 .delete_task {
   margin-right: 0.5rem;
   color: rgb(233, 47, 47);
+  align-self: center;
+  cursor: pointer;
+}
+
+.the_task .to_do {
+  width: 20rem
 }

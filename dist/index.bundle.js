@@ -350,7 +350,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: #f4f2f3;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.none {\r\n  display: none;\r\n}\r\n\r\n.to_do_list_container {\r\n  border: 1px solid #9497ae;\r\n  box-shadow: 0.05rem 0.05rem 2rem;\r\n  width: 40rem;\r\n  height: auto;\r\n  margin: 10rem auto;\r\n}\r\n\r\nheader {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: auto;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  background-color: white;\r\n}\r\n\r\nh1 {\r\n  margin: 0;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.8rem;\r\n  color: black;\r\n}\r\n\r\n.reload {\r\n  align-self: center;\r\n  color: #c4c6d8;\r\n  margin-right: 1rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.task_input {\r\n  background-color: white;\r\n  border-bottom: 1px solid #c4c6d8;\r\n}\r\n\r\ninput {\r\n  font-size: 1.5rem;\r\n  padding: 0.5rem;\r\n  font-family: Quintessential, sans-serif;\r\n  width: 90%;\r\n  border: none;\r\n  outline: none;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.task_container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n  background-color: white;\r\n}\r\n\r\n.task_container .task {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  font-family: Quintessential, sans-serif;\r\n  gap: 1rem;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  font-size: 1.2rem;\r\n}\r\n\r\n.checking {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  flex-shrink: 0;\r\n}\r\n\r\n.clear {\r\n  text-align: center;\r\n  padding: 1rem;\r\n  color: #9497ae;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.5rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.the_task {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 1rem;\r\n}\r\n\r\n.delete_task {\r\n  margin-right: 0.5rem;\r\n  color: rgb(233, 47, 47);\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: #f4f2f3;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.none {\r\n  display: none;\r\n}\r\n\r\n.to_do_list_container {\r\n  border: 1px solid #9497ae;\r\n  box-shadow: 0.05rem 0.05rem 2rem;\r\n  width: 40rem;\r\n  height: auto;\r\n  margin: 10rem auto;\r\n}\r\n\r\nheader {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: auto;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  background-color: white;\r\n}\r\n\r\nh1 {\r\n  margin: 0;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.8rem;\r\n  color: black;\r\n}\r\n\r\n.reload {\r\n  align-self: center;\r\n  color: #c4c6d8;\r\n  margin-right: 1rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.task_input {\r\n  background-color: white;\r\n  border-bottom: 1px solid #c4c6d8;\r\n}\r\n\r\ninput {\r\n  font-size: 1.5rem;\r\n  padding: 0.5rem;\r\n  font-family: Quintessential, sans-serif;\r\n  width: 90%;\r\n  border: none;\r\n  outline: none;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.task_container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  background-color: white;\r\n}\r\n\r\n.task_container .task {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  font-family: Quintessential, sans-serif;\r\n  gap: 1rem;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  font-size: 1.2rem;\r\n}\r\n\r\n.checking {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  flex-shrink: 0;\r\n}\r\n\r\n.clear {\r\n  text-align: center;\r\n  padding: 1rem;\r\n  color: #9497ae;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.5rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.the_task {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 1rem;\r\n}\r\n\r\n.delete_task {\r\n  margin-right: 0.5rem;\r\n  color: rgb(233, 47, 47);\r\n  align-self: center;\r\n  cursor: pointer;\r\n}\r\n\r\n.the_task .to_do {\r\n  width: 20rem\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -547,13 +547,10 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
+
 // Populating the html element
 
 const taskContainer = document.querySelector('.task_container');
-let template = '';
-let tick = '';
-let display = '';
-let taskLists = [];
 
 function addToLocalStorage(data) {
   localStorage.setItem('data', JSON.stringify(data));
@@ -567,33 +564,42 @@ class Task {
   }
 }
 
+let taskLists = [];
+
 const showActivity = (taskLists) => {
   for (let i = 0; i < taskLists.length; i += 1) {
-    if (taskLists[i].completed === false) {
-      tick = 'none';
-      display = '';
-    } else {
-      tick = '';
-      display = 'none';
-    }
-    template += `
-      <div class="task" id="${taskLists[i].index}">
-          <div class="the_task">
-            <div class="check_box ${tick}"></div>
-            <input type = "checkbox" class="checking ${display}">
-            <input type="text" readonly value="${taskLists[i].description}">
-          </div>
-          <div class="delete_task none"><i class="fa fa-trash" aria-hidden="true"></i></div>      
-      </div > `;
+    const div = document.createElement('div')
+    div.classList.add('task')
+    div.setAttribute('id', `${taskLists[i].index}`)
+    const theTask = document.createElement('div')
+    theTask.classList.add('the_task')
+    const checkBox = document.createElement('input')
+    checkBox.classList.add('checking')
+    checkBox.type = "checkbox"
+    theTask.appendChild(checkBox)
+    const taskElement = document.createElement('input')
+    taskElement.type = "text"
+    taskElement.classList.add('to_do')
+    taskElement.value = `${taskLists[i].description}`
+    theTask.appendChild(taskElement)
+    div.appendChild(theTask)
+    const deleteIcon = document.createElement('div')
+    deleteIcon.classList.add('delete_task')
+    deleteIcon.innerHTML = '<i class="fa fa-trash" aria-hidden="true"></i>'
+    deleteIcon.id = taskLists[i].index
+    deleteIcon.addEventListener('click', (e) => {
+      const ref = e.target.parentElement.id;
+      removeTask(ref)
+      e.target.parentElement.parentElement.remove();
+    });
+    div.appendChild(deleteIcon)
+    taskContainer.appendChild(div)
   }
-
-  taskContainer.innerHTML = template;
 }
 
+// Add task
 
-// Add and Remove
-
-const form = document.querySelector('form')
+const activity = document.querySelector('#add_task')
 
 const addTask = () => {
   const activity = document.querySelector('#add_task').value;
@@ -602,13 +608,14 @@ const addTask = () => {
     taskLists.push(tasks);
     showActivity([tasks]);
     addToLocalStorage(taskLists);
-    // form.reset();
   }
 };
 
-form.addEventListener('keypress', (e) => {
-  if (e.key === "Enter") {
+activity.addEventListener('keypress', (e) => {
+  if (e.code === "Enter") {
+    if (e.target.value === '') return
     addTask()
+    e.target.value = ''
   }
 });
 
@@ -617,10 +624,24 @@ window.onload = () => {
     showActivity(taskLists);
   } else {
     const localActivities = JSON.parse(localStorage.getItem('data'));
+    for (let i = 0; i < localActivities.length; i++) {
+      localActivities[i].index = i + 1
+    }
     showActivity(localActivities);
     taskLists = localActivities;
+    addToLocalStorage(taskLists)
   }
 };
+
+const removeTask = (ref) => {
+  const result = taskLists.filter((value) => value.index !== Number(ref));
+  taskLists = result;
+  // for (let i = 0; i < taskLists.length - 1; i++) {
+  //   taskLists[i].index = (i + 1)
+  // }
+  addToLocalStorage(taskLists);
+};
+
 })();
 
 /******/ })()
