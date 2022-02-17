@@ -30,7 +30,7 @@ for (let i = 0; i < taskLists.length; i += 1) {
     <div class="task" id="${taskLists[i].index}">
         <div class="check_box ${tick}"></div>
         <input type = "checkbox" class="checking ${display}">
-        <div>${taskLists[i].description}</div>
+        <div>${taskLists[i].description}</div>        
     </div > `;
 }
 

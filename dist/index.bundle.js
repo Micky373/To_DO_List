@@ -579,6 +579,7 @@ for (let i = 0; i < taskLists.length; i += 1) {
         <div class="check_box ${tick}"></div>
         <input type = "checkbox" class="checking ${display}">
         <div>${taskLists[i].description}</div>
+        <div class="delete_task"><i class="fa fa-trash" aria-hidden="true"></i></div>        
     </div > `;
 }
 
