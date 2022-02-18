@@ -108,3 +108,17 @@ input {
   width: 20rem;
   overflow: scroll;
 }
+
+@media (max-width: 600px) {
+  .to_do_list_container {
+    width: 25rem;
+  }
+
+  .the_task .to_do {
+    width: 15rem;
+  }
+
+  .the_task {
+    gap: 0;
+  }
+}
