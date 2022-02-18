@@ -2,6 +2,7 @@ import './styles.css';
 import showActivity from './modules/show_activity.js';
 import addTask from './modules/add_task.js';
 import { addToLocalStorage } from './modules/local_storage.js';
+import finish from './modules/complete_check.js';
 
 // Populating the html element
 
@@ -10,6 +11,12 @@ let taskLists = [];
 // Add task
 
 const activity = document.querySelector('#add_task');
+const finishTask = document.querySelector('.finish');
+
+finishTask.addEventListener('click', () => {
+  finishTask.style.textDecoration = 'underline';
+  finish();
+});
 
 activity.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
