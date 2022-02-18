@@ -497,6 +497,18 @@ const showActivity = (taskLists) => {
         const checkBox = document.createElement('input');
         checkBox.classList.add('checking');
         checkBox.type = 'checkbox';
+        checkBox.id = taskLists[i].index;
+        checkBox.setAttribute('data-id', `${taskLists[i].index}`);
+        checkBox.addEventListener('change', (e) => {
+            const deleteTask = e.target.parentNode.parentNode.querySelector('.to_do');
+            if (e.target.checked) {
+                deleteTask.style.textDecoration = "line-through"
+                deleteTask.style.color = "#e66465"
+            } else {
+                deleteTask.style.textDecoration = "none"
+                deleteTask.style.color = "inherit"
+            }
+        })
         theTask.appendChild(checkBox);
         const taskElement = document.createElement('input');
         taskElement.type = 'text';
