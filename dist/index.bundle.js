@@ -350,7 +350,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: #f4f2f3;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.none {\r\n  display: none;\r\n}\r\n\r\n.to_do_list_container {\r\n  border: 1px solid #9497ae;\r\n  box-shadow: 0.05rem 0.05rem 2rem;\r\n  width: 40rem;\r\n  height: auto;\r\n  margin: 7rem auto;\r\n}\r\n\r\nheader {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: auto;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  background-color: white;\r\n}\r\n\r\nh1 {\r\n  margin: 0;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.8rem;\r\n  color: black;\r\n}\r\n\r\n.reload {\r\n  align-self: center;\r\n  color: #c4c6d8;\r\n  margin-right: 1rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.task_input {\r\n  background-color: white;\r\n  border-bottom: 1px solid #c4c6d8;\r\n}\r\n\r\n.task_input button {\r\n  border: none;\r\n  background-color: white;\r\n  align-self: center;\r\n  color: #c4c6d8;\r\n  margin-right: 1rem;\r\n  cursor: pointer;\r\n  font-size: 2rem;\r\n}\r\n\r\ninput {\r\n  font-size: 1.5rem;\r\n  padding: 0.5rem;\r\n  font-family: Quintessential, sans-serif;\r\n  width: 85%;\r\n  border: none;\r\n  outline: none;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.task_container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  background-color: white;\r\n}\r\n\r\n.task_container .task {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  font-family: Quintessential, sans-serif;\r\n  gap: 1rem;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  font-size: 1.2rem;\r\n}\r\n\r\n.checking {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  flex-shrink: 0;\r\n  background-color: red;\r\n  display: block;\r\n}\r\n\r\n.clear {\r\n  text-align: center;\r\n  padding: 1rem;\r\n  color: #9497ae;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.5rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.the_task {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 1rem;\r\n}\r\n\r\n.delete_task {\r\n  color: rgb(233, 47, 47);\r\n  align-self: center;\r\n  cursor: pointer;\r\n  margin-right: 1rem;\r\n}\r\n\r\n.the_task .to_do {\r\n  width: 20rem;\r\n  overflow: scroll;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: #f4f2f3;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.none {\r\n  display: none;\r\n}\r\n\r\n.to_do_list_container {\r\n  border: 1px solid #9497ae;\r\n  box-shadow: 0.05rem 0.05rem 2rem;\r\n  width: 40rem;\r\n  height: auto;\r\n  margin: 7rem auto;\r\n}\r\n\r\nheader {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: auto;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  background-color: white;\r\n}\r\n\r\nh1 {\r\n  margin: 0;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.8rem;\r\n  color: black;\r\n}\r\n\r\n.reload {\r\n  align-self: center;\r\n  color: #c4c6d8;\r\n  margin-right: 1rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.task_input {\r\n  background-color: white;\r\n  border-bottom: 1px solid #c4c6d8;\r\n}\r\n\r\ninput {\r\n  font-size: 1.5rem;\r\n  padding: 0.5rem;\r\n  font-family: Quintessential, sans-serif;\r\n  width: 85%;\r\n  border: none;\r\n  outline: none;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.task_container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  background-color: white;\r\n}\r\n\r\n.task_container .task {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  font-family: Quintessential, sans-serif;\r\n  gap: 1rem;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid #c4c6d8;\r\n  font-size: 1.2rem;\r\n}\r\n\r\n.checking {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  flex-shrink: 0;\r\n  background-color: red;\r\n  display: block;\r\n}\r\n\r\n.clear {\r\n  text-align: center;\r\n  padding: 1rem;\r\n  color: #9497ae;\r\n  font-family: Quintessential, sans-serif;\r\n  font-size: 1.5rem;\r\n  cursor: pointer;\r\n}\r\n\r\n.the_task {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 1rem;\r\n}\r\n\r\n.delete_task {\r\n  color: rgb(233, 47, 47);\r\n  align-self: center;\r\n  cursor: pointer;\r\n  margin-right: 1rem;\r\n}\r\n\r\n.the_task .to_do {\r\n  width: 20rem;\r\n  overflow: scroll;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -472,6 +472,151 @@ module.exports = function (cssWithMappingToString) {
   return list;
 };
 
+/***/ }),
+/* 11 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _local_storage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(12);
+/* harmony import */ var _remove_task_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
+
+
+
+const taskContainer = document.querySelector('.task_container');
+
+const showActivity = (taskLists) => {
+  for (let i = 0; i < taskLists.length; i += 1) {
+    const div = document.createElement('div');
+    div.classList.add('task');
+    div.setAttribute('id', `${taskLists[i].index}`);
+    const theTask = document.createElement('div');
+    theTask.classList.add('the_task');
+    const checkBox = document.createElement('input');
+    checkBox.classList.add('checking');
+    checkBox.type = 'checkbox';
+    theTask.appendChild(checkBox);
+    const taskElement = document.createElement('input');
+    taskElement.type = 'text';
+    taskElement.classList.add('to_do');
+    taskElement.id = taskLists[i].index;
+    taskElement.setAttribute('data-id', `${taskLists[i].index}`);
+    taskElement.value = `${taskLists[i].description}`;
+    taskElement.addEventListener('input', (e) => {
+      const editTask = e.target.parentNode.parentNode;
+      const deleteIcon = editTask.querySelector('.delete_task');
+      e.target.parentNode.style.backgroundColor = 'lightgoldenrodyellow';
+      e.target.style.backgroundColor = 'lightgoldenrodyellow';
+      e.target.parentNode.parentNode.style.backgroundColor = 'lightgoldenrodyellow';
+      deleteIcon.classList.remove('none');
+      const index = e.target.dataset.id;
+      taskLists[index - 1].description = e.target.value;
+      (0,_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.addToLocalStorage)(taskLists);
+    });
+    taskElement.addEventListener('blur', (e) => {
+      e.target.parentNode.style.backgroundColor = 'white';
+      e.target.style.backgroundColor = 'white';
+      e.target.parentNode.parentNode.style.backgroundColor = 'white';
+      setTimeout(() => {
+        window.location.reload();
+      }, 200);
+    });
+    theTask.appendChild(taskElement);
+    div.appendChild(theTask);
+    const deleteIcon = document.createElement('div');
+    deleteIcon.classList.add('delete_task');
+    deleteIcon.classList.add('none');
+    deleteIcon.innerHTML = '<i class="fa fa-trash" aria-hidden="true"></i>';
+    deleteIcon.id = taskLists[i].index;
+    deleteIcon.addEventListener('click', (e) => {
+      const ref = e.target.parentElement.id;
+      (0,_remove_task_js__WEBPACK_IMPORTED_MODULE_1__["default"])(ref);
+      e.target.parentElement.parentElement.remove();
+      window.location.reload();
+    });
+    div.appendChild(deleteIcon);
+    taskContainer.appendChild(div);
+  }
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (showActivity);
+
+/***/ }),
+/* 12 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "addToLocalStorage": () => (/* binding */ addToLocalStorage),
+/* harmony export */   "default": () => (/* binding */ Task)
+/* harmony export */ });
+function addToLocalStorage(data) {
+  localStorage.setItem('data', JSON.stringify(data));
+}
+
+class Task {
+  constructor(description, completed, index) {
+    this.description = description;
+    this.completed = completed;
+    this.index = index;
+  }
+}
+
+/***/ }),
+/* 13 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _local_storage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(12);
+
+
+let taskLists = JSON.parse(localStorage.getItem('data'));
+
+const removeTask = (ref) => {
+  const result = taskLists.filter((value) => value.index !== Number(ref));
+  taskLists = result;
+  for (let i = 0; i < taskLists.length; i += 1) {
+    taskLists[i].index = i + 1;
+  }
+  (0,_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.addToLocalStorage)(taskLists);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (removeTask);
+
+/***/ }),
+/* 14 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _local_storage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(12);
+/* harmony import */ var _show_activity_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
+
+
+
+
+const taskLists = JSON.parse(localStorage.getItem('data'));
+
+const addTask = () => {
+  const activity = document.querySelector('#add_task').value;
+  if (activity !== null) {
+    const tasks = new _local_storage_js__WEBPACK_IMPORTED_MODULE_0__["default"](activity, false, ((taskLists.length) + 1));
+    taskLists.push(tasks);
+    (0,_show_activity_js__WEBPACK_IMPORTED_MODULE_1__["default"])([tasks]);
+    (0,_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.addToLocalStorage)(taskLists);
+  }
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addTask);
+
+
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -546,123 +691,45 @@ var __webpack_exports__ = {};
 (() => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _modules_show_activity_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
+/* harmony import */ var _modules_add_task_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14);
+/* harmony import */ var _modules_local_storage_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12);
+
+
+
 
 
 // Populating the html element
 
-const taskContainer = document.querySelector('.task_container');
-
-function addToLocalStorage(data) {
-  localStorage.setItem('data', JSON.stringify(data));
-}
-
-class Task {
-  constructor(description, completed, index) {
-    this.description = description;
-    this.completed = completed;
-    this.index = index;
-  }
-}
-
 let taskLists = [];
-const removeTask = (ref) => {
-  const result = taskLists.filter((value) => value.index !== Number(ref));
-  taskLists = result;
-  addToLocalStorage(taskLists);
-  window.location.reload();
-};
-
-const showActivity = (taskLists) => {
-  for (let i = 0; i < taskLists.length; i += 1) {
-    const div = document.createElement('div');
-    div.classList.add('task');
-    div.setAttribute('id', `${taskLists[i].index}`);
-    const theTask = document.createElement('div');
-    theTask.classList.add('the_task');
-    const checkBox = document.createElement('input');
-    checkBox.classList.add('checking');
-    checkBox.type = 'checkbox';
-    theTask.appendChild(checkBox);
-    const taskElement = document.createElement('input');
-    taskElement.type = 'text';
-    taskElement.classList.add('to_do');
-    taskElement.id = taskLists[i].index;
-    taskElement.setAttribute('data-id', `${taskLists[i].index}`);
-    taskElement.value = `${taskLists[i].description}`;
-    taskElement.addEventListener('input', (e) => {
-      e.target.parentNode.style.backgroundColor = 'lightgoldenrodyellow';
-      e.target.style.backgroundColor = 'lightgoldenrodyellow';
-      e.target.parentNode.parentNode.style.backgroundColor = 'lightgoldenrodyellow';
-      const index = e.target.dataset.id;
-      taskLists[index - 1].description = e.target.value;
-      addToLocalStorage(taskLists);
-    });
-    taskElement.addEventListener('blur', (e) => {
-      e.target.parentNode.style.backgroundColor = 'white';
-      e.target.style.backgroundColor = 'white';
-      e.target.parentNode.parentNode.style.backgroundColor = 'white';
-    });
-    theTask.appendChild(taskElement);
-    div.appendChild(theTask);
-    const deleteIcon = document.createElement('div');
-    deleteIcon.classList.add('delete_task');
-    deleteIcon.innerHTML = '<i class="fa fa-trash" aria-hidden="true"></i>';
-    deleteIcon.id = taskLists[i].index;
-    deleteIcon.addEventListener('click', (e) => {
-      const ref = e.target.parentElement.id;
-      removeTask(ref);
-      e.target.parentElement.parentElement.remove();
-    });
-    div.appendChild(deleteIcon);
-    taskContainer.appendChild(div);
-  }
-};
 
 // Add task
 
 const activity = document.querySelector('#add_task');
 
-const addTask = () => {
-  const activity = document.querySelector('#add_task').value;
-  if (activity !== null) {
-    const tasks = new Task(activity, false, ((taskLists.length) + 1));
-    taskLists.push(tasks);
-    showActivity([tasks]);
-    addToLocalStorage(taskLists);
-  }
-};
-
 activity.addEventListener('keypress', (e) => {
-  if (e.code === 'Enter') {
+  if (e.key === 'Enter') {
     if (e.target.value === '') return;
-    addTask();
+    (0,_modules_add_task_js__WEBPACK_IMPORTED_MODULE_2__["default"])();
     window.location.reload();
     e.target.value = '';
   }
 });
 
-document.querySelector('.task_input button').addEventListener('click', () => {
-  const text = document.querySelector('.task_input input');
-  if (text.value === '') return;
-  addTask();
-  window.location.reload();
-  text.value = '';
-});
-
 window.onload = () => {
   if (localStorage.getItem('data') === null) {
-    showActivity(taskLists);
+    (0,_modules_show_activity_js__WEBPACK_IMPORTED_MODULE_1__["default"])(taskLists);
   } else {
     const localActivities = JSON.parse(localStorage.getItem('data'));
     for (let i = 0; i < localActivities.length; i += 1) {
       localActivities[i].index = i + 1;
     }
-    showActivity(localActivities);
+    (0,_modules_show_activity_js__WEBPACK_IMPORTED_MODULE_1__["default"])(localActivities);
     taskLists = localActivities;
     for (let i = 0; i < taskLists.length; i += 1) {
       taskLists[i].index = i + 1;
     }
-    addToLocalStorage(taskLists);
+    (0,_modules_local_storage_js__WEBPACK_IMPORTED_MODULE_3__.addToLocalStorage)(taskLists);
   }
 };
 
