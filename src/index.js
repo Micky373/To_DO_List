@@ -1,37 +1,39 @@
 import './styles.css';
+import showActivity from './modules/show_activity.js';
+import addTask from './modules/add_task.js';
+import { addToLocalStorage } from './modules/local_storage.js';
+
 // Populating the html element
 
-const taskContainer = document.querySelector('.task_container');
-let template = '';
-let tick = '';
-let display = '';
-const taskLists = [
-  {
-    description: 'Wash the dishes',
-    completed: false,
-    index: 0,
-  },
-  {
-    description: 'Complete To do list project',
-    completed: false,
-    index: 1,
-  },
-];
+let taskLists = [];
 
-for (let i = 0; i < taskLists.length; i += 1) {
-  if (taskLists[i].completed === false) {
-    tick = 'none';
-    display = '';
-  } else {
-    tick = '';
-    display = 'none';
+// Add task
+
+const activity = document.querySelector('#add_task');
+
+activity.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    if (e.target.value === '') return;
+    addTask();
+    window.location.reload();
+    e.target.value = '';
   }
-  template += `
-    <div class="task" id="${taskLists[i].index}">
-        <div class="check_box ${tick}"></div>
-        <input type = "checkbox" class="checking ${display}">
-        <div>${taskLists[i].description}</div>
-    </div > `;
-}
+});
 
-taskContainer.innerHTML = template;
+window.onload = () => {
+  if (localStorage.getItem('data') === null) {
+    showActivity(taskLists);
+    addToLocalStorage(taskLists);
+  } else {
+    const localActivities = JSON.parse(localStorage.getItem('data'));
+    for (let i = 0; i < localActivities.length; i += 1) {
+      localActivities[i].index = i + 1;
+    }
+    showActivity(localActivities);
+    taskLists = localActivities;
+    for (let i = 0; i < taskLists.length; i += 1) {
+      taskLists[i].index = i + 1;
+    }
+    addToLocalStorage(taskLists);
+  }
+};
