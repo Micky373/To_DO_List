@@ -2,7 +2,7 @@ import Task, { addToLocalStorage } from './local_storage.js';
 
 import showActivity from './show_activity.js';
 
-const taskLists = JSON.parse(localStorage.getItem('data'));
+const taskLists = (localStorage.length === 0) ? [] : JSON.parse(localStorage.getItem('data'));
 
 const addTask = () => {
   const activity = document.querySelector('#add_task').value;

@@ -602,7 +602,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const taskLists = JSON.parse(localStorage.getItem('data'));
+const taskLists = (localStorage.length === 0) ? [] : JSON.parse(localStorage.getItem('data'));
 
 const addTask = () => {
   const activity = document.querySelector('#add_task').value;
@@ -719,6 +719,7 @@ activity.addEventListener('keypress', (e) => {
 window.onload = () => {
   if (localStorage.getItem('data') === null) {
     (0,_modules_show_activity_js__WEBPACK_IMPORTED_MODULE_1__["default"])(taskLists);
+    (0,_modules_local_storage_js__WEBPACK_IMPORTED_MODULE_3__.addToLocalStorage)(taskLists);
   } else {
     const localActivities = JSON.parse(localStorage.getItem('data'));
     for (let i = 0; i < localActivities.length; i += 1) {
