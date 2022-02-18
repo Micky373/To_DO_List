@@ -88,6 +88,9 @@ input {
   color: #9497ae;
   font-family: Quintessential, sans-serif;
   font-size: 1.5rem;
+}
+
+.clear .finish {
   cursor: pointer;
 }
 
@@ -107,6 +110,11 @@ input {
 .the_task .to_do {
   width: 20rem;
   overflow: scroll;
+}
+
+.marked {
+  text-decoration: line-through;
+  color: #e66465;
 }
 
 @media (max-width: 600px) {
